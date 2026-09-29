@@ -18,3 +18,6 @@ async def echo_endpoint(data: dict):
 async def update_endpoint(data: dict):
     # Here you would typically update some resource with the provided data
     return {"updated_data": data}
+
+# install uvicorn with pip install uvicorn
+# uvicorn learning:app --reload --port 1234   
